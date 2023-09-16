@@ -14,12 +14,12 @@ Task: Need to create an API where anyone can create questions with options and a
 - View a question with it’s options and all the votes given to it
 
 ## Required Routes
-- /question/create (To create a question)
-- /question/options/:id/create (To add options to a specific question)
-- /question/delete/:id(To delete a question)
-- /question/options/delete/:id/delete (To delete an option)
-- /question/options/:id/add_vote (To increment the count of votes)
-- /question/view/:id (To view a question and it’s options)
+- /api/v1/question/create (To create a question)
+- /api/v1/question/options/:id/create (To add options to a specific question)
+- /api/v1/question/delete/:id(To delete a question)
+- /api/v1/question/options/delete/:id/delete (To delete an option)
+- /api/v1/question/options/:id/add_vote (To increment the count of votes)
+- /api/v1/question/view/:id (To view a question and it’s options)
 
 ## Folder Structure
 ```
